@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="../All/LoginFebWebC.css">
+</head>
+<body>
+    <main>
+        <div class="square"></div>
+        <div class="uptext1">Log In to continue</div>
+        <div class="uptext2">
+            Don't have an account yet? <a href="../All/SignUpFebWeb.html">Sign Up</a>
+        </div>
+
+        <div class="login-page">
+            <form class="login-form" method="post">
+                <input type="text" placeholder="Username" id="username"/>
+                <input type="password" placeholder="Password" id="password"/>
+                <input class="check "type="checkbox" name="Keep">
+                <label> Keep me loged in</label>
+                <input type="button" value="Login Now" id="submit" onclick="validate()"/>
+            </form>
+        </div>
+
+        <div class="undertext">
+            <a href="#">Forgot Your Password?</a>
+        </div>
+
+        <div class="undertext2">
+            Or Log In with
+        </div>
+
+        <div class="kotakgoogle">
+            <div class="googleimg">
+                <img src="../All/Media/GOOGLE.png">
+            </div>
+            <div class="googletext">
+                <a href="#">Google</a>
+            </div>
+        </div>
+        <div class="kotaktwitter">
+            <div class="twitterimg">
+                <img src="../All/Media/Twitter.png">
+            </div>
+            <div class="twittertext">
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="kotakfacebook">
+            <div class="facebookimg">
+                <img src="../All/Media/Facebook.png">
+            </div>
+            <div class="facebooktext">
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+    </main>
+    <script src="../All/LoginJs.js"></script>
+</body>
+</html>

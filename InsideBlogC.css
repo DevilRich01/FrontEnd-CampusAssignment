@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+header {
+    display: flex;
+}
+body {
+    overflow-x: hidden;
+    background-color: #DEC5E9;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Inter';
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: white;
+    font-family: 'Inter';
+}
+.navbar-about {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.navbar-about li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+.date {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 1350px;
+    top: 125px;
+}
+.picture img {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    left: 180px;
+    top: 187px;
+    border: 3px solid #FFFFFF;
+    border-radius: 8px;
+    filter: drop-shadow(6px 8px 10px rgba(0, 0, 0, 0.3));
+}
+.tittle {
+    position: absolute;
+    width: 1000px;
+    height: 100px;
+    left: 340px;
+    top: 850px;
+}
+.tittle h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 39px;
+    text-shadow: 4px 5px 8px rgba(0, 0, 0, 0.55);
+}
+.isiblog {
+    justify-content: justify;
+    position: absolute;
+    width: 1400px;
+    height: 1200px;
+    left: 105px;
+    top: 950px;
+    line-height: 25px;
+    text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.3);
+}
+.isiblog a {
+    color: magenta;
+}

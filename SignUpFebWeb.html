@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../All/SignUpFebWebC.css">
+</head>
+<body>
+    <main>
+        <div class="square"></div>
+        <div class="uptext1">
+            Sign Up with 
+        </div>
+        <div class="uptext2">
+            Already have an account? <a href="../All/LoginFebWeb.html">Log In</a>
+        </div>
+        
+        <div class="kotakgoogle">
+            <div class="googleimg">
+                <img src="../All/Media/GOOGLE.png">
+            </div>
+            <div class="googletext">
+                <a href="#">Google</a>
+            </div>
+        </div>
+        <div class="kotaktwitter">
+            <div class="twitterimg">
+                <img src="../All/Media/Twitter.png">
+            </div>
+            <div class="twittertext">
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="kotakfacebook">
+            <div class="facebookimg">
+                <img src="../All/Media/Facebook.png">
+            </div>
+            <div class="facebooktext">
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+
+        <div class="middletext">
+            Or with your E-mail
+        </div>
+        <div class="login-page">
+            <form class="register-form">
+              <input type="text" placeholder="Username" id="username"/>
+              <input type="text" placeholder="Email Address" id="email"/>
+              <input type="password" placeholder="Password" id="password"/>
+              <input type="password" placeholder="Repeat Password" id="password">
+              <label>FA Gallery may keep me informed with personalized emails about product and services. See our <a href="#">Privacy Policy </a> for more details.</label><br>
+              <input class="check "type="checkbox" name="Keep">
+              <label>Please contact me via E-mail</label><br>
+              <input class="check "type="checkbox" name="Keep">
+              <label>I have read and accepted the <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></label>
+              <input type="button" value="Create Account" id="submit" onclick="validate()"/>
+          </form>
+      </div>
+    </main>
+    <script src="../All/SignJs.js"></script>
+</body>
+</html>

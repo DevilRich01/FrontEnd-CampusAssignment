@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+  
+  body {
+    font-family: "inter", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+  .container {
+    max-width: 1050px;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    height: 62px;
+  }
+  
+  .navbar .menu-items {
+    display: flex;
+    background-image: url(../All/Media/SideMenu-BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .navbar .nav-container li {
+    list-style: none;
+  }
+  
+  .navbar .nav-container a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 64px;
+    padding: 0.9rem;
+  }
+  
+  .navbar .nav-container a:hover{
+      font-weight: bolder;
+      color: rgb(255, 175, 224);
+  }
+  
+  .nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+  }
+  
+  .nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 40px;
+    top: 50px;
+    left: 1200px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .nav-container .hamburger-lines {
+    display: block;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    top: 50px;
+    left: 1200px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+  }
+  
+  .nav-container .hamburger-lines .line1 {
+    transform-origin: 30% 20%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line3 {
+    transform-origin: 10% 50%;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  
+  .navbar .menu-items {
+    padding-top: 100px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    height: 100vh;
+    width: 114vw;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -500px;
+    padding-left: 1350px;
+    transition: transform 0.5s ease-in-out;
+    text-align: left;
+  }
+  
+  .navbar .menu-items li {
+    margin-bottom: 0.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .bahasa{
+    display: none;
+  }
+  

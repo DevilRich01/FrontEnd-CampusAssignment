@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  body {
+    overflow: hidden;
+    background-image: url('../All/Media/Bg-Login.png');
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Inter';
+  }
+  
+  .square {
+    position: absolute;
+    width: 832px;
+    height: 620px;
+    left: 380px;
+    top: 100px;
+    background: #FFFDFD;
+    border-radius: 10px;
+  }
+  .uptext1 {
+    position: absolute;
+    width: 208px;
+    height: 29px;
+    left: 430px;
+    top: 120px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: black;
+  }
+  .uptext2 {
+    position: absolute;
+    width: 350px;
+    height: 29px;
+    left: 820px;
+    top: 120px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+  }
+  .uptext2 a {
+    width: 91px;
+    height: 29px;
+    left: 260px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FC77FF;
+  }
+  .login-page {
+    position: absolute;
+    width: 677px;
+    padding: 200px 0 0px 430px;
+    margin: auto;
+  }
+  .login-form input {
+    font-family: 'Inter';
+    background: #FFFFFF;
+    width: 107%;
+    border: 3px solid #EBEBEB;
+    border-radius: 8px;
+    margin: 0 0 35px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  input[type=button] {
+    font-family: 'Inter';
+    text-transform: uppercase;
+    outline: 0;
+    background: #FEB5FF;
+    width: 107%;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .login-form .check {
+    width: 29px;
+    height: 29px;
+    top: 349px;
+    border: 3px solid #EBEBEB;
+  }
+  .login-form label {
+    position: absolute;
+    width: 211px;
+    height: 29px;
+    left: 485px;
+    top: 411px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 0px;
+    color: #000000;
+  }
+  input[type=button]:hover,input[type=button]:active,input[type=button]:focus {
+    background: #f946fc;
+  }
+  .undertext a{
+    position: absolute;
+    width: 500px;
+    height: 24px;
+    left: 680px;
+    top: 540px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FC77FF;
+  }
+  .undertext2 {
+    position: absolute;
+    width: 161px;
+    height: 29px;
+    left: 430px;
+    top: 590px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+  }
+  .kotakgoogle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 206px;
+    height: 60px;
+    left: 430px;
+    top: 630px;
+    background: #FFFFFF;
+    border: 3px solid #EBEBEB;
+    border-radius: 8px;
+  }
+  .googleimg img {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .googletext a {
+    position: absolute;
+    width: 83px;
+    height: 29px;
+    left: 70px;
+    top: 12px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+  .kotaktwitter {
+    position: absolute;
+    width: 206px;
+    height: 60px;
+    left: 690px;
+    top: 630px;
+    background: #00ACEE;
+    border-radius: 8px;
+  }
+  .twitterimg img {
+    margin-top: 17px;
+    margin-left: 25px;
+  }
+  .twittertext a {
+    position: absolute;
+    width: 83px;
+    height: 29px;
+    left: 70px;
+    top: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .kotakfacebook {
+    position: absolute;
+    width: 206px;
+    height: 60px;
+    left: 950px;
+    top: 630px;
+    background: #3B5998;
+    border-radius: 8px;
+  }
+  .facebookimg img {
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  .facebooktext a {
+    position: absolute;
+    width: 114px;
+    height: 29px;
+    left: 55px;
+    top: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+  }

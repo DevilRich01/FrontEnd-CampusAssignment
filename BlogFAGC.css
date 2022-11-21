@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+header{
+  display: flex;
+}
+body {
+  overflow-x: hidden;
+  background-color:#DEC5E9;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: 'Inter';
+}
+
+/*Search Bar*/
+.input {
+  display: block;
+  margin-bottom: 16px;
+  width: 300px;
+  height: 30px;
+  border: 3px solid #FFFFFF;
+  border-radius: 5px;
+  margin-left: 1150px;
+  margin-top: 70px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  margin-left: 0;
+  width: 65%;
+  height: 20%;
+  color: white;
+  font-family: 'Inter';
+}
+.navbar-about {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  margin-top: -160px;
+  margin-left: 120px;
+  padding-top: 60px;
+  padding-left: 50px;
+}
+.navbar-about li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+.navbar-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+  margin-left: 400px;
+  padding-top: 30px;
+}
+.navbar-list li {
+  margin-right: 150px;
+  font-size: 20px;
+}
+
+
+/*Kotak*/
+.body-container{
+  position: relative;
+  margin: 30px 0 0 -35px;
+}
+.brand_container {
+  width: 288px;
+  height: 330px;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  margin: 70px 0 0 95px;
+  border: 3px solid #FFFFFF;
+  border-radius: 8px;
+  filter: drop-shadow(4px 3px 5px rgba(0, 0, 0, 0.4));
+}
+.hide {
+  display: none;
+}
+.appear {
+  display: inline-block;
+}
+
+/*Isi Kotak*/
+.kotakpict img {
+  position: absolute;
+  width: 282px;
+  height: 190px;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px 5px 0px 0px;
+}
+.brand-name {
+  position: absolute;
+  font-size: 18px;
+  width: 600px;
+  height: 29px;
+  left: 5px;
+  top: 200px;
+  text-align: left;
+}
+.date {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 150px;
+  height: 19px;
+  margin-left: 125px;
+  top: 260px;
+}
+.type {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  width: 200px;
+  height: 50px;
+  margin-left: 15px;
+  top: 275px;
+}
+.type b {
+  color: magenta;
+}
+.bookmark {
+  position: absolute;
+  left: 90.57%;
+  top: 90.66%;
+  bottom: 45.9%;
+}

@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Inter';
+  }
+  
+  .section {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .marquee {
+    width: 360px;
+    border-top: 3px solid #FFFFFF;
+    background-color: transparent;
+    white-space: nowrap;
+  }
+  
+  .marquee-text {
+    display: inline-block;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    animation: scroll 3s linear infinite;
+  }
+  
+  @keyframes scroll {
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  #sec-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: turquoise;
+  }
+  
+  #ctn {
+    margin-top: 40px;
+    width: 360px;
+    height: 360px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  @keyframes flash {
+    50% {
+      opacity: 0;
+    }
+  }
